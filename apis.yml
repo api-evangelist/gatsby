@@ -1,0 +1,67 @@
+aid: gatsby
+name: Gatsby
+description: >-
+  Gatsby is an open-source, React-based framework for building fast, secure,
+  content-driven websites and applications using GraphQL data sourcing,
+  static site generation (SSG), server-side rendering (SSR), and deferred
+  static generation (DSG). Gatsby is now stewarded by Netlify, which acquired
+  the company in 2023 and sunset the hosted Gatsby Cloud build and preview
+  service, migrating customers to Netlify's unified platform. Gatsby itself
+  is a build-time framework and does not expose a public hosted REST API;
+  integrations are performed locally through its GraphQL data layer and
+  plugin ecosystem.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Static Site Generator
+  - JAMstack
+  - React
+  - GraphQL
+  - Build Tool
+  - Frontend Framework
+  - Web Development
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/gatsby/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: gatsby:graphql-data-layer
+    name: Gatsby GraphQL Data Layer
+    description: >-
+      Local, build-time GraphQL data layer exposed by the Gatsby framework to
+      query content sourced from plugins (CMSs, filesystem, APIs). This is
+      not a hosted public API; it runs inside a developer's Gatsby project
+      during development and build. The hosted Gatsby Cloud Build API was
+      sunset following Netlify's acquisition.
+    humanURL: https://www.gatsbyjs.com/docs/graphql/
+    baseURL: ''
+    tags:
+      - GraphQL
+      - Build-time
+      - Static Site Generator
+      - Data Sourcing
+    properties:
+      - type: Documentation
+        url: https://www.gatsbyjs.com/docs/
+      - type: GraphQL Reference
+        url: https://www.gatsbyjs.com/docs/graphql-reference/
+      - type: Plugin Library
+        url: https://www.gatsbyjs.com/plugins
+      - type: GitHub Repository
+        url: https://github.com/gatsbyjs/gatsby
+
+common:
+  - type: Website
+    url: https://www.gatsbyjs.com
+  - type: Documentation
+    url: https://www.gatsbyjs.com/docs/
+  - type: GitHub Organization
+    url: https://github.com/gatsbyjs
+  - type: Netlify (Successor Hosting)
+    url: https://www.netlify.com/gatsby/
+  - type: Community
+    url: https://www.gatsbyjs.com/contributing/community/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
