@@ -48,7 +48,7 @@ apis:
         url: https://www.gatsbyjs.com/docs/graphql-reference/
       - type: Plugin Library
         url: https://www.gatsbyjs.com/plugins
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/gatsbyjs/gatsby
 
 common:
@@ -56,7 +56,7 @@ common:
     url: https://www.gatsbyjs.com
   - type: Documentation
     url: https://www.gatsbyjs.com/docs/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/gatsbyjs
   - type: Netlify (Successor Hosting)
     url: https://www.netlify.com/gatsby/
