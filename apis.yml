@@ -52,6 +52,8 @@ apis:
         url: https://github.com/gatsbyjs/gatsby
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/gatsbyjs
   - type: Website
     url: https://www.gatsbyjs.com
   - type: Documentation
