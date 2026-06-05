@@ -13,57 +13,59 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Static Site Generator
-  - JAMstack
-  - React
-  - GraphQL
-  - Build Tool
-  - Frontend Framework
-  - Web Development
+- Static Site Generator
+- JAMstack
+- React
+- GraphQL
+- Build Tool
+- Frontend Framework
+- Web Development
 url: >-
   https://raw.githubusercontent.com/api-evangelist/gatsby/refs/heads/main/apis.yml
 created: '2026-05-11'
 modified: '2026-05-11'
 specificationVersion: '0.19'
 apis:
-  - aid: gatsby:graphql-data-layer
-    name: Gatsby GraphQL Data Layer
-    description: >-
-      Local, build-time GraphQL data layer exposed by the Gatsby framework to
-      query content sourced from plugins (CMSs, filesystem, APIs). This is
-      not a hosted public API; it runs inside a developer's Gatsby project
-      during development and build. The hosted Gatsby Cloud Build API was
-      sunset following Netlify's acquisition.
-    humanURL: https://www.gatsbyjs.com/docs/graphql/
-    baseURL: ''
-    tags:
-      - GraphQL
-      - Build-time
-      - Static Site Generator
-      - Data Sourcing
-    properties:
-      - type: Documentation
-        url: https://www.gatsbyjs.com/docs/
-      - type: GraphQL Reference
-        url: https://www.gatsbyjs.com/docs/graphql-reference/
-      - type: Plugin Library
-        url: https://www.gatsbyjs.com/plugins
-      - type: GitHubRepository
-        url: https://github.com/gatsbyjs/gatsby
-
-common:
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/gatsbyjs
-  - type: Website
-    url: https://www.gatsbyjs.com
+- aid: gatsby:graphql-data-layer
+  name: Gatsby GraphQL Data Layer
+  description: >-
+    Local, build-time GraphQL data layer exposed by the Gatsby framework to
+    query content sourced from plugins (CMSs, filesystem, APIs). This is
+    not a hosted public API; it runs inside a developer's Gatsby project
+    during development and build. The hosted Gatsby Cloud Build API was
+    sunset following Netlify's acquisition.
+  humanURL: https://www.gatsbyjs.com/docs/graphql/
+  baseURL: ''
+  tags:
+  - GraphQL
+  - Build-time
+  - Static Site Generator
+  - Data Sourcing
+  properties:
   - type: Documentation
     url: https://www.gatsbyjs.com/docs/
-  - type: GitHubOrganization
-    url: https://github.com/gatsbyjs
-  - type: Netlify (Successor Hosting)
-    url: https://www.netlify.com/gatsby/
-  - type: Community
-    url: https://www.gatsbyjs.com/contributing/community/
+  - type: GraphQL Reference
+    url: https://www.gatsbyjs.com/docs/graphql-reference/
+  - type: Plugin Library
+    url: https://www.gatsbyjs.com/plugins
+  - type: GitHubRepository
+    url: https://github.com/gatsbyjs/gatsby
+
+  - url: graphql/gatsby-graphql.md
+    type: GraphQL
+common:
+- type: LinkedIn
+  url: https://www.linkedin.com/company/gatsbyjs
+- type: Website
+  url: https://www.gatsbyjs.com
+- type: Documentation
+  url: https://www.gatsbyjs.com/docs/
+- type: GitHubOrganization
+  url: https://github.com/gatsbyjs
+- type: Netlify (Successor Hosting)
+  url: https://www.netlify.com/gatsby/
+- type: Community
+  url: https://www.gatsbyjs.com/contributing/community/
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
