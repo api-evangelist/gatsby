@@ -54,7 +54,7 @@ tags_raw:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/gatsby/refs/heads/main/apis.yml
 created: '2026-05-11'
-modified: '2026-05-11'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
 - aid: gatsby:graphql-data-layer
@@ -85,6 +85,8 @@ apis:
   - url: graphql/gatsby-graphql.md
     type: GraphQL
 common:
+- url: https://www.gatsbyjs.com/blog/
+  type: Blog
 - type: IssueTracker
   url: https://github.com/gatsbyjs/gatsby/issues
 - type: Releases
